@@ -1,0 +1,31 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration-color: maroon;
+    margin-bottom: 05px;
+  
+  }
+
+  nav li {
+    display: inline-block;
+    background-color: black;
+    font-size: 34px;
+    font-family: fantasy;
+    
+  }
+
+  nav a {
+    display: block;
+    padding: 70px;
+    color: rgb(126, 24, 24);
+  }
+
+  header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font: xx-large;
+    color: rgb(187, 20, 20);
+  }
