@@ -19,6 +19,78 @@ nav ul {
   nav a {
     display: block;
     padding: 70px;
+    
+
+  header {
+   
+    text-align: center;
+   
+    font: xx-large;
+   
+  }
+
+  .image-section {
+    width: 100%; /* Makes the image span the entire width of the screen */
+    max-height: 300px; /* Limits the height of the image to 300 pixels */
+    overflow: hidden; /* Hides any content beyond the specified height */ 
+    margin-top: 05px;
+  }
+
+  .image-section img {
+    width: 100%; /* Ensures the image fills the entire width of its container */
+    object-fit: cover; /* Scales and crops the image to fill the container */
+    margin-bottom: 05px;
+  }
+
+  body {
+    
+  }
+
+  h1 {
+    font-family: fantasy;
+    font-size: 48px;
+  }
+  p{
+    font-size: x-large;
+    text-align: justify;
+    
+    padding: 20px; /* Add padding to the text inside the box */
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: url("https://tse1.mm.bing.net/th?id=OIP.mINAzUUpnwSlrS6afO334QHaE7&pid=Api&P=0&h=220") center center/cover;
+    background-color: none;
+    color: rgb(250, 248, 248);
+    
+  
+  }
+
+  a:hover, a:active {
+    background-color: #810606;
+    color:cornsilk
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration-color: maroon;
+    margin-bottom: 05px;
+  
+  }
+
+  nav li {
+    display: inline-block;
+    background-color: black;
+    font-size: 34px;
+    font-family: fantasy;
+    
+  }
+
+  nav a {
+    display: block;
+    padding: 70px;
     color: rgb(126, 24, 24);
   }
 
@@ -32,7 +104,7 @@ nav ul {
 
   .image-section {
     width: 100%; /* Makes the image span the entire width of the screen */
-    max-height: 300px; /* Limits the height of the image to 300 pixels */
+    max-height: 800px; /* Limits the height of the image to 300 pixels */
     overflow: hidden; /* Hides any content beyond the specified height */ 
     margin-top: 05px;
   }
@@ -54,19 +126,28 @@ nav ul {
   p{
     font-size: x-large;
     text-align: justify;
-    border: 10px solid #810606; /* Set border width and color */
+    /*border: 10px solid #810606;  Set border width and color */
     padding: 20px; /* Add padding to the text inside the box */
     max-width: 900px;
     margin: 0 auto;
     margin-top: 10px;
-    background: url("https://tse1.mm.bing.net/th?id=OIP.mINAzUUpnwSlrS6afO334QHaE7&pid=Api&P=0&h=220") center center/cover;
+    /*background: url("https://tse1.mm.bing.net/th?id=OIP.mINAzUUpnwSlrS6afO334QHaE7&pid=Api&P=0&h=220") center center/cover;*/
     background-color: none;
-    color: rgb(250, 248, 248);
+    
     
   
   }
 
   a:hover, a:active {
-    background-color: #810606;
+    background-color: #357deb;
     color:cornsilk
+  }
+
+  .video-container iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+
+
   }
