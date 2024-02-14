@@ -31,15 +31,15 @@ nav ul {
   }
 
   .image-section {
-    width: 100%; /* Makes the image span the entire width of the screen */
-    max-height: 300px; /* Limits the height of the image to 300 pixels */
-    overflow: hidden; /* Hides any content beyond the specified height */ 
+    width: 100%; /* yo yo span the entire width of the screen */
+    max-height: 300px; /* Yo Yo Limits the height of the image to 300 pixels */
+    overflow: hidden; /* Ey Ey Hides any content beyond the specified height */ 
     margin-top: 05px;
   }
 
   .image-section img {
-    width: 100%; /* Ensures the image fills the entire width of its container */
-    object-fit: cover; /* Scales and crops the image to fill the container */
+    width: 100%; /* yo yo mofo Ensures the image fills the entire width of its container */
+    object-fit: cover; /* GUESS WHAT Scales and crops the image to fill the container */
     margin-bottom: 05px;
   }
 
