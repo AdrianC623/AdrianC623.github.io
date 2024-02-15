@@ -115,6 +115,7 @@ nav li {
     border-radius: 20px;
     box-shadow: 0 0 10px 5px rgba(241, 226, 10, 0.8);
     animation: glowing-video 2s infinite linear;
+    
   }
   
   @keyframes glowing-video {
