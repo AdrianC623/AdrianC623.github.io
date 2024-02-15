@@ -61,9 +61,9 @@ nav ul {
 
 
   .image-section {
-    width: 100%; /* Makes the image span the entire width of the screen */
-    max-height: 1000px; /* Limits the height of the image to 300 pixels */
-    overflow: hidden; /* Hides any content beyond the specified height */ 
+    width: 100%; 
+    max-height: 1200px; 
+    overflow: hidden;  
     margin-top: 05px;
     border-radius: 20px;
   }
