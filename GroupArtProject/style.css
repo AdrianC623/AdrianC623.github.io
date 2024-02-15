@@ -63,6 +63,7 @@ nav ul {
     max-height: 800px; /* Limits the height of the image to 300 pixels */
     overflow: hidden; /* Hides any content beyond the specified height */ 
     margin-top: 05px;
+    border-radius: 20px;
   }
 
   .image-section img {
