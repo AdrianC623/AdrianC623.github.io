@@ -21,7 +21,7 @@ nav ul {
     
 
   header {
-    
+
     text-align: center;
     font: xx-large;
     border-radius: 20px;
@@ -44,7 +44,7 @@ nav ul {
     text-align: justify;
     
     padding: 20px; /* Add padding to the text inside the box */
-    max-width: 900px;
+    max-width: 40%;
     margin: 0 auto;
     margin-top: 10px;
     background: url("https://tse1.mm.bing.net/th?id=OIP.mINAzUUpnwSlrS6afO334QHaE7&pid=Api&P=0&h=220") center center/cover;
