@@ -39,24 +39,20 @@ nav ul {
     font-family: fantasy;
     font-size: 48px;
   }
-  p{
+  p {
     font-size: x-large;
     text-align: justify;
-    
-    padding: 20px; /* Add padding to the text inside the box */
+    padding: 20px;
     max-width: 40%;
     margin: 0 auto;
     margin-top: 100px;
-    background: url("https://tse1.mm.bing.net/th?id=OIP.mINAzUUpnwSlrS6afO334QHaE7&pid=Api&P=0&h=220") center center/cover;
-    background-color: none;
+    background-color: black; /* Set the background color to black */
     color: rgb(241, 226, 10);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     float: left;
     margin-bottom: 20px;
-    
-  
   }
-
+  
   a:hover, a:active {
     background-color: #810606;
     color:cornsilk
