@@ -51,6 +51,8 @@ nav ul {
     background-color: none;
     color: rgb(241, 226, 10);
     border-radius: 20px 20px 20px 20px;
+    float: left;
+    margin-bottom: 20px;
     
   
   }
@@ -58,6 +60,7 @@ nav ul {
   a:hover, a:active {
     background-color: #810606;
     color:cornsilk
+    
   }
 
 
