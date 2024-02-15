@@ -6,14 +6,28 @@ nav ul {
   margin-bottom: 05px;
 }
 
-  nav li {
-    display: inline-block;
-    background-color: black;
-    font-size: 34px;
-    font-family: fantasy;
-    border-radius: 20px;
-    
+nav li {
+  display: inline-block;
+  background-color: black;
+  font-size: 34px;
+  font-family: fantasy;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px rgba(241, 226, 10, 0.8);
+  animation: glowing-box 2s infinite linear;
+}
+
+@keyframes glowing-box {
+  0% {
+    box-shadow: 0 0 5px 2px rgba(241, 226, 10, 0.8);
   }
+  50% {
+    box-shadow: 0 0 7px 4px rgba(70, 4, 177, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px 2px rgba(10, 241, 229, 0.8);
+  }
+}
+
 
   nav a {
     display: block;
