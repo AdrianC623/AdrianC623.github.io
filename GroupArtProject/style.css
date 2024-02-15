@@ -21,13 +21,15 @@ nav ul {
     
 
   header {
+    
     text-align: center;
     font: xx-large;
-    border-radius: 30px;
+    border-radius: 20px;
    
   }
 
   body {
+
     background: linear-gradient(to right, red, black, darkgray);
   }
 
