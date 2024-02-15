@@ -23,10 +23,10 @@
 
     header {
       background-color: rgb(52, 50, 50);
-      text-align: center;
       color: white;
-      font: xx-large;
       color: rgb(236, 8, 228);
+      text-align: center;
+      border-radius: 20px;
     }
 
     .image-section {
@@ -50,20 +50,36 @@
       font-family: fantasy;
       font-size: 48px;
     }
-    p  {
-      font-size: x-large;
-      text-align: justify;
-      border: 10px solid #cf0fe9; /* Set border width and color */
-      padding: 20px; /* Add padding to the text inside the box */
-      max-width: 900px;
-      margin: 0 auto;
-      margin-top: 10px;
-      background: url("http://wonderfulengineering.com/wp-content/uploads/2016/01/black-wallpaper-3.jpg") center center/cover;
-      background-color: none;
-      color: rgb(250, 248, 248);
-      
-    
-    }
+    p {
+  font-size: x-large;
+  text-align: justify;
+  border: 10px solid #cf0fe9;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: url("http://wonderfulengineering.com/wp-content/uploads/2016/01/black-wallpaper-3.jpg") center center/cover;
+  background-color: none;
+  color: rgb(250, 248, 248);
+  border-radius: 20px;
+  float: left;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px 5px rgba(201, 11, 175, 0.8);
+  animation: glowing-border 2s infinite linear;
+}
+
+@keyframes glowing-border {
+  0% {
+    box-shadow: 0 0 5px 5px rgba(189, 7, 143, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px 20px rgba(43, 5, 131, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 5px 5px rgba(241, 226, 10, 0.8);
+  }
+}
+
 
     a:hover, a:active {
       background-color: rgb(189, 18, 231);
