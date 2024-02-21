@@ -15,9 +15,6 @@
       border-radius: 20px;     
     }
 
-    body {
-  background: linear-gradient(to right, rgb(223, 117, 4), rgb(251, 248, 248), rgb(111, 109, 109));
-}
 
   header {
     text-align: center;
@@ -28,6 +25,56 @@
 max-height: 1300px; /* Limits the height of the image to 300 pixels */
 }
 
+html {
+  --c1: red;
+  --c2: orange;
+  --c3: yellow;
+  --c4: green;
+  --c5: blue;
+  --c6: indigo;
+  --c7: violet;
+  
+  --solid: var(--c1), var(--c2), var(--c3), var(--c4), var(--c5), var(--c6), var(--c7);
+  --solid-wrap: var(--solid), var(--c1);
+  --trans: 
+    var(--c1), transparent,
+    var(--c2), transparent,
+    var(--c3), transparent,
+    var(--c4), transparent,
+    var(--c5), transparent,
+    var(--c6), transparent,
+    var(--c7)
+  ;
+  --trans-wrap: var(--trans), transparent, var(--c1);
+  
+  background: 
+    radial-gradient(circle, var(--trans)),
+    conic-gradient(from 180deg, var(--trans-wrap)),
+    radial-gradient(circle, var(--trans)),
+    conic-gradient(var(--solid-wrap));
+  background-blend-mode: overlay;
+  height: 100%;
+}
+
+/* It seems part of the charm 
+  comes from wide variation in brightness
+  So perceptually uniform oklch colors look best 
+  when difference/exclusion are involved */
+/* @supports (color: oklch(0% 0 0deg)) {
+  html {
+    --diff: calc(360deg / 7);
+    --c1: oklch(60% 0.5 calc(var(--diff) * 1));
+    --c2: oklch(60% 0.5 calc(var(--diff) * 2));
+    --c3: oklch(60% 0.5 calc(var(--diff) * 3));
+    --c4: oklch(60% 0.5 calc(var(--diff) * 4));
+    --c5: oklch(60% 0.5 calc(var(--diff) * 5));
+    --c6: oklch(60% 0.5 calc(var(--diff) * 6));
+    --c7: oklch(60% 0.5 calc(var(--diff) * 7));
+    
+    background-blend-mode: overlay, overlay, difference;    
+  }
+}
+ */
   </style>
   </head>
   
