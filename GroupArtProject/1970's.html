@@ -56,24 +56,10 @@ html {
   height: 100%;
 }
 
-/* It seems part of the charm 
-  comes from wide variation in brightness
-  So perceptually uniform oklch colors look best 
-  when difference/exclusion are involved */
-/* @supports (color: oklch(0% 0 0deg)) {
-  html {
-    --diff: calc(360deg / 7);
-    --c1: oklch(60% 0.5 calc(var(--diff) * 1));
-    --c2: oklch(60% 0.5 calc(var(--diff) * 2));
-    --c3: oklch(60% 0.5 calc(var(--diff) * 3));
-    --c4: oklch(60% 0.5 calc(var(--diff) * 4));
-    --c5: oklch(60% 0.5 calc(var(--diff) * 5));
-    --c6: oklch(60% 0.5 calc(var(--diff) * 6));
-    --c7: oklch(60% 0.5 calc(var(--diff) * 7));
-    
-    background-blend-mode: overlay, overlay, difference;    
+.floating-image {
+border-radius: 50px;
   }
-}
+
  */
   </style>
   </head>
@@ -112,5 +98,7 @@ html {
     <div class="video-container">
       <iframe width="560" height="315" src="https://www.youtube.com/embed/yqz62DTcHg4?si=DXpZXIR5Y7zIAlE3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+    <div class="floating-image">
+      <img src="https://i.pinimg.com/originals/51/c5/42/51c5424f2c731e5fa9a944fc0cb2052a.jpg" alt="Floating Image">
   </body>
   </html>
