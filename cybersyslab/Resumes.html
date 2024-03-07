@@ -10,7 +10,7 @@
     text-align: center;
     font-size: 40px;
     color: rgb(255, 255, 255);
-    font-family:Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     margin-top: 0%;
     padding: 5px;
     min-height: 100px;
@@ -18,7 +18,7 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Courier New', Courier, monospace;
         height: 100%;
         color: rgb(255, 255, 255);
         text-align: center;
@@ -30,7 +30,7 @@
     .column {
         flex: 1;
         padding: 20px;
-        border: 3px solid #050505;
+        border: 3px solid rgb(3, 3, 3);
         height: 100%;
         background-color: rgb(7, 45, 170);
     }
@@ -39,28 +39,28 @@
 <body>
 <header>
 <div class="header">
-<h2>Meet the students behind this project!</h2>
+<h3>Meet the students behind this project!</h3>
 </div>
 </header>
 <div class="container">
     <div class="column">
         <h1>Adrian Cardenas</h1>
-        <p>insert image her</p>
         <p>
+            <img src="image4.jpeg" img style="width: 150px; height: 150px;">
             <img src="AdrianQR.png" img style="width: 270px; height: 270px">
         </p>
     </div>
     <div class="column">
         <h1>Jossel Solis</h1>
-        <p>insert image here</p>
         <p>
+            <img src="image0.jpeg" img style="width: 150px; height: 150px;">
             <img src="SolisQR.png" img style="width: 270px; height: 270px;">
         </p>
     </div>
     <div class="column">
         <h1>Bemnet Berhe</h1>
-        <p>insert image here</p>
         <p>
+            <img src="image3.jpeg" img style="width: 150px; height: 150px;">
             <img src="BemnetQR.png" img style="width: 270px; height: 270px;">
         </p>
     </div>
@@ -77,7 +77,7 @@
         window.location.href = pageList[currentIndex];
     }
     
-    setInterval(transitionPage, 5000); // 5 seconds
+    setInterval(transitionPage, 32000); // 32 seconds
 </script>
 </body>
 </html>

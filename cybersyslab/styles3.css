@@ -11,7 +11,6 @@ header {
     min-height: 100px;
 }
 
-
 header img {
     float: left;
     position:;
@@ -32,10 +31,6 @@ header {
 
 
 
-
-
-
-
 #sidebar {
     width: 200px;
     float: left;
@@ -48,15 +43,13 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 main {
-    margin-left: 220px;
+    margin-left: 220px; 
     padding: 10px;
     background-color: rgb(3, 3, 3);
     max-height: 0%;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 body {
     background-color: rgb(3, 3, 3);
@@ -66,24 +59,22 @@ body {
     width: 100%;
     background-color: rgb(3, 3, 3);
     min-height: 100%;
-    margin-top: 10px;
-    display: flex;
+    margin-top: 10px; 
+    display: flex; 
     border-radius: 10px;
     color: rgb(255, 252, 252);
     font-family: 'Courier New', Courier, monospace;
-   
+    
 }
-
 
 .newsfeed {
     background-color: rgb(33, 35, 206);
     width: 25%;
     height: 640px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: 20px; 
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .livefeed {
     background-color: rgb(33, 35, 206);
@@ -95,7 +86,6 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 video{
     width: 100%;
     height: 470px;
@@ -104,12 +94,10 @@ video{
     border-color: rgb(255, 252, 252);
   }
 
-
   .main-container, h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
   }
-
 
   a {
     color: rgb(255, 252, 252)
@@ -117,6 +105,4 @@ video{
   img{
     width: 150px;
     height: 140px;
-
-
   }
