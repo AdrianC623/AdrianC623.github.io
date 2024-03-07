@@ -1,10 +1,9 @@
-/*header font styling */
 header {
     background-color:rgb(33, 35, 206);
     text-align: center;
     font-size: 30px;
     color: rgb(255, 252, 252);
-    font-family:'Courier New', Courier, monospace;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: bold;
     margin-top: 0%;
     padding: 5px;
@@ -12,81 +11,112 @@ header {
     min-height: 100px;
 }
 
+
 header img {
-    float: right;
+    float: left;
     position:;
 }
+header {
+    background-color: rgb(33, 35, 206);
+    text-align: center;
+    font-size: 28px;
+    color: rgb(255, 252, 252);
+    font-family:monospace;
+    margin-top: 0%;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 10%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
 
 #sidebar {
     width: 200px;
     float: left;
-    background-color: #070707;
+    background-color: rgb(255, 252, 252);
     padding: 10px;
-    min-height: 590px;
+    min-height: 625px;
     margin-top: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
-    font-family:'Courier New', Courier, monospace;
-}
-
-main {
-    margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
-    padding: 10px;
-    background-color: #0c0c0c;
     font-family: 'Courier New', Courier, monospace;
 }
 
+
+main {
+    margin-left: 220px;
+    padding: 10px;
+    background-color: rgb(3, 3, 3);
+    max-height: 0%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 body {
-    background-color: rgb(10, 9, 9);
+    background-color: rgb(3, 3, 3);
     font-family: 'Courier New', Courier, monospace;
 }
 .main-container {
     width: 100%;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(3, 3, 3);
     min-height: 100%;
-    margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
-    display: flex; /* Use flexbox layout */
+    margin-top: 10px;
+    display: flex;
     border-radius: 10px;
-    color: rgba(255, 255, 255, 0.842);
+    color: rgb(255, 252, 252);
     font-family: 'Courier New', Courier, monospace;
-    
+   
 }
 
+
 .newsfeed {
-    background-color: rgb(7, 45, 170);
+    background-color: rgb(33, 35, 206);
     width: 25%;
-    height: 800px;
+    height: 640px;
     border-radius: 10px;
-    margin-right: 10px; /* Add spacing between the newsfeed and livefeed */
+    margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
 }
+
 
 .livefeed {
     background-color: rgb(33, 35, 206);
     width: 75%;
-    height: 700px;
+    height: 625px;
     border-radius: 10px;
-    padding: 16px;
-    color: rgba(255, 255, 255, 0.842);
+    padding: 10px;
+    color: rgb(255, 252, 252);
     font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
 }
 
-iframe {
+
+video{
     width: 100%;
-    height: 400px;
-    border: 3px solid black;
+    height: 470px;
+    border: 3px solid rgb(3, 3, 3);
     border-radius: 10px;
-    border-color: #dfdfdf;
-    font-family: 'Courier New', Courier, monospace;
+    border-color: rgb(255, 252, 252);
   }
+
 
   .main-container, h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
   }
 
+
   a {
-    color: white
+    color: rgb(255, 252, 252)
+  }
+  img{
+    width: 150px;
+    height: 140px;
+
+
   }
