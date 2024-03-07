@@ -11,15 +11,16 @@ header {
     min-height: 100px;
 }
 
+
 header img {
     float: left;
     position:;
 }
 header {
-    background-color: #0032a1;
+    background-color: rgb(33, 35, 206);
     text-align: center;
     font-size: 28px;
-    color: rgb(250, 252, 252);
+    color: rgb(255, 252, 252);
     font-family:monospace;
     margin-top: 0%;
     padding: 20px;
@@ -28,15 +29,17 @@ header {
     font-family: 'Courier New', Courier, monospace;
 }
 
-header img {
-    float: right;
-}
+
+
+
+
+
 
 
 #sidebar {
     width: 200px;
     float: left;
-    background-color: #dfdfdf;
+    background-color: rgb(255, 252, 252);
     padding: 10px;
     min-height: 625px;
     margin-top: 10px;
@@ -45,38 +48,42 @@ header img {
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 main {
-    margin-left: 220px;  /* Adjust the margin to create space for the sidebar */
+    margin-left: 220px;
     padding: 10px;
-    background-color: black;
+    background-color: rgb(3, 3, 3);
     max-height: 0%;
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 body {
-    background-color: black;
+    background-color: rgb(3, 3, 3);
     font-family: 'Courier New', Courier, monospace;
 }
 .main-container {
     width: 100%;
-    background-color: black;
+    background-color: rgb(3, 3, 3);
     min-height: 100%;
-    margin-top: 10px; /* Add spacing between the main-container and header/footer or other elements */
-    display: flex; /* Use flexbox layout */
+    margin-top: 10px;
+    display: flex;
     border-radius: 10px;
-    color: #dfdfdf;
+    color: rgb(255, 252, 252);
     font-family: 'Courier New', Courier, monospace;
-    
+   
 }
 
+
 .newsfeed {
-    background-color: rgb(7, 45, 170);
+    background-color: rgb(33, 35, 206);
     width: 25%;
     height: 640px;
     border-radius: 10px;
-    margin-right: 20px; /* Add spacing between the newsfeed and livefeed */
+    margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 .livefeed {
     background-color: rgb(33, 35, 206);
@@ -84,29 +91,32 @@ body {
     height: 625px;
     border-radius: 10px;
     padding: 10px;
-    color: white;
+    color: rgb(255, 252, 252);
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 video{
     width: 100%;
-    height: 505px;
-    border: 3px solid black;
+    height: 470px;
+    border: 3px solid rgb(3, 3, 3);
     border-radius: 10px;
-    border-color: #dfdfdf;
+    border-color: rgb(255, 252, 252);
   }
+
 
   .main-container, h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
   }
 
+
   a {
-    color: white
+    color: rgb(255, 252, 252)
   }
-  
-img{
-    width: 100%;
-    height: 380px;
-    background-color: #dfdfdf;
-}
+  img{
+    width: 150px;
+    height: 140px;
+
+
+  }
