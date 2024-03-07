@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles3.css">
+</head>
+<body>
+    <header>
+        <h1><u>ADVANCED CYBER SYSTEMS LAB</u></h1>
+    </header>
+
+    <div class="main-container">
+        <div class="newsfeed">
+            <section>
+                <h3><u>Gateway Community College</u></h3>
+                <h4>Welcome All Techies</h4>
+                <p>Gateways Advanced Cyber Systems Lab has very many ways that you can express your love for technology. We offer free tutoring, come and make a podcast if you want we have a 3D printer and tools for fixxing computers and mobile devices.</p>
+               
+            </section>
+        </div>
+        <div class="livefeed">
+            <section>
+                <div class="the G logo" id="the G logo">
+                    <video width="980" height="505" controls autoplay muted>
+                <source src="videos/Big G BB.mp4" type="video/mp4">
+            </div>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        var pageList = ["Lablogopage.html"]; // Updated pages order
+        var currentIndex = 0;
+    
+        function transitionPage() {
+            currentIndex++;
+            if (currentIndex >= pageList.length) {
+                currentIndex = 0;
+            }
+            window.location.href = pageList[currentIndex];
+        }
+    
+        setInterval(transitionPage, 5000); // 5 seconds
+    </script>
+
+    
+</body>
+</html>
